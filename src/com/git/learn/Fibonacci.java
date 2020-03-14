@@ -14,6 +14,7 @@ public class Fibonacci {
 			series[i]=series[i-2]+series[i-1];
 		}
 		
+		
 		System.out.println(Arrays.toString(series));
 	}
 
