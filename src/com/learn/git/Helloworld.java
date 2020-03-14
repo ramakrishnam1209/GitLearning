@@ -9,6 +9,9 @@ public class Helloworld {
 
 		System.out.println("welcome to git");
 		
+		System.out.println("chetlanu natandi galini varshanni pondandi");
+		System.out.println("HELLO GOOD MORNING!");
+		System.out.println("srinu srinu");
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter your age");
 		
