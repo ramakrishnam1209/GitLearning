@@ -15,6 +15,8 @@ public class Fibonacci {
 		}
 		
 		
+		
+		
 		System.out.println(Arrays.toString(series));
 	}
 
