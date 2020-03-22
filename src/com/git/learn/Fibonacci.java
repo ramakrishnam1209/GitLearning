@@ -6,6 +6,7 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 
+		// this Fibonacci serice code 
 		int[] series=new int[20];
 		series[0]=0;
 		series[1]=1;
