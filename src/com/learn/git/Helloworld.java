@@ -1,5 +1,6 @@
 package com.learn.git;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Helloworld {
@@ -9,18 +10,16 @@ public class Helloworld {
 
 		System.out.println("welcome to git");
 		
-		System.out.println("chetlanu natandi galini varshanni pondandi");
-		System.out.println("HELLO GOOD MORNING!");
-		System.out.println("srinu srinu");
-		Scanner sc=new Scanner(System.in);
-		System.out.println("enter your age");
-		
-		int age=sc.nextInt();
-		if(age>=18) {
-			System.out.println("your eligible to vote");
-		}else {
-			System.err.println("your not eligible to vote because your age is less than 18 years");
-		}
+        int[] arr= {1,3,5,7,9,11};
+        int[] arr2= new int[arr.length];
+        int increment=0;
+        System.out.println("Before "+Arrays.toString(arr));
+        for(int i=arr.length-1;i>=0;i--) {
+        	arr2[increment]=arr[i];
+        	increment++;
+        }
+
+        System.out.println("After "+Arrays.toString(arr2));
 		
 		}
 
