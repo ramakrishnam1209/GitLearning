@@ -14,8 +14,14 @@ public class Fibonacci {
 			series[i]=series[i-2]+series[i-1];
 		}
 		
-		
-		
+		int a=10;
+		int b=20;
+		System.out.println("Before "+a+"  "+b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("After  "+a+"  "+b);
+
 		
 		System.out.println(Arrays.toString(series));
 	}
